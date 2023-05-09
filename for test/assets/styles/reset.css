@@ -1,0 +1,27 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body {
+  background-color: var(--bacground-color);
+}
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.root {
+  --main--text--color: #070707;
+  --background-color: white;
+}
+
+.container {
+  max-width: 945px;
+  width: 100%;
+  margin: 0 auto;
+}
